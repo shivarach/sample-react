@@ -1,5 +1,6 @@
 export const CREATE_APPOINTMENT = "CREATE_APPOINTMENT";
 export const UPDATE_STATUS = "UPDATE_STATUS";
+export const CANCEL_APPOINTMENT = "CANCEL_APPOINTMENT";
 
 export function createAppointment(patientName) {
     return {
@@ -8,9 +9,9 @@ export function createAppointment(patientName) {
     }
 }
 
-export function updateStatus(index) {
+export function cancelAppointment(index) {
     return {
-        type: UPDATE_STATUS,
+        type: CANCEL_APPOINTMENT,
         index
     }
 }
