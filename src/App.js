@@ -1,5 +1,6 @@
 import React from 'react';
 import Form from './components/Form'
+import AddAppointment from './appointment/AddAppointment.js'
 
 // function App() {
 //   return (
@@ -13,7 +14,7 @@ function App() {
     return (
         <div className="App">
             <p>Hello world</p>
-
+            <AddAppointment/>
         </div>
     );
 }
